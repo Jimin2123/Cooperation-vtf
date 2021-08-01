@@ -1,5 +1,7 @@
-# cooperation
+#폴더 구조에 대한 내용을 추가 할듯합니다.
 
+# cooperation
+test
 ## Project setup
 ```
 npm install
