@@ -1,13 +1,16 @@
 <template>
-  <div>
-    
-  </div>
+  <default-layout />
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import DefaultLayout from '@/components/layouts/default.vue'
 
-@Component
+@Component({
+  components: {
+    DefaultLayout
+  }
+})
 export default class App extends Vue {
 
 }
